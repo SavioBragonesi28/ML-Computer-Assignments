@@ -23,5 +23,25 @@ github.com/ArinB/MSBA-CA-Data/CA01
 - house-price-train.csv
 - house-price-test.csv
 
+# Part 1: Data Understanding and Data Quality Report
+- General Statistics
+- Missing Values
+- Graphs
+- Outliers
+
+# Part 2: Pre-Processing
+-Handling Missing Values
+-Handling Outliers
+-Encoding
+-Idness
+-Normalizing
+
+# Part 3: Post Processing
+- Colinearity
+- Feature Selection
+
+
+  
+
 
 
