@@ -1,8 +1,7 @@
 # CA02: This is a eMail Spam Classifers that uses Naive Bayes supervised machine learning algorithm. 
 
-In this assignment you will ...
-1. Complete the code such a way that it works correctly with this given parts of the program.
-2. Explain as clearly as possible what each part of the code is doing. Use "Markdown" texts and code commenting to explain the code
+## Data 
+Download the Data.zip to obtain the Data Files and run the program
 
 ## Part 1: Importing
 The initial section involves importing necessary packages and libraries:
