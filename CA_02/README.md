@@ -21,7 +21,10 @@ This section introduces a function that reads email files, tokenizes words, remo
 Here, another function uses the previously created dictionary. It iterates through email content, counting occurrences of words from the dictionary, and populating a matrix. Rows correspond to emails, and columns represent words. Spam emails (those containing "spmsg") are labeled as 1. This matrix serves as a numerical representation of email content for machine learning purposes.
 
 ## Part 4 Importing files and applying the fucntions to it
-This segment involves importing training and test data, processing it through the created functions, and generating variables for model usage: `test_features_matrix`, `test_labels`, `features_matrix`, and `labels`.
+This segment involves importing training and test data, processing it through the created functions, and generating variables for model usage: `test_features_matrix`, `test_labels`, `features_matrix`, and `labels`. 
+### For this part pay attention to the file path depending on your OS and if you are on Coolab or Jupyter 
+- Linux('/') 
+- Windows ('\\)
 
 
 ## Part 5 Model Training, Prediction, and Accuracy
