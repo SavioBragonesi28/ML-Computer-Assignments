@@ -30,11 +30,11 @@ github.com/ArinB/MSBA-CA-Data/CA01
 - Outliers
 
 # Part 2: Pre-Processing
--Handling Missing Values
--Handling Outliers
--Encoding
--Idness
--Normalizing
+- Handling Missing Values
+- Handling Outliers
+- Encoding
+- Idness
+- Normalizing
 
 # Part 3: Post Processing
 - Colinearity
