@@ -24,6 +24,6 @@ Here, another function uses the previously created dictionary. It iterates throu
 This segment involves importing training and test data, processing it through the created functions, and generating variables for model usage: `test_features_matrix`, `test_labels`, `features_matrix`, and `labels`.
 
 
-## Part 5 
+## Part 5 Model Training, Prediction, and Accuracy
 The model is fitted using the `features_matrix` and `labels`. Subsequently, the trained model predicts labels for the `test_features_matrix`. The accuracy of the model is assessed by comparing predictions with actual labels in the `test_labels` dataset, employing the `accuracy_score` function.
 
