@@ -29,6 +29,7 @@ We measured the performance of our model using various metrics, including:
 - Recall
 - Precision
 - Classification Report
+- ROC & AUC
 
 ## 5. Tune Decision Tree Performance
 We manually varied FOUR hyperparameters to find the best-performing tree with respect to accuracy. These hyperparameters include:
@@ -55,3 +56,4 @@ In this final step, we added a new row to the data to predict which class this n
 
 ## Acknowledgements
 Dr. Brahma
+Stack overflow
