@@ -15,7 +15,7 @@ or Not Spam. There are 702 emails equally divided into spam and non spam categor
 Next, we shall test the model on 260 emails. We shall ask model to predict the category
 of this emails and compare the accuracy with correct classification that we already know
 
-## CA03: CA03 – Decision Tree Algorithm
+# CA03: Decision Tree Algorithm
 In this assignment, we imported Census data related to income levels, conducted exploratory 
 data analysis (EDA), cleaned the data, encoded categorical variables, and constructed
 a Decision Tree model based on our dataset. Subsequently, we experimented with different 
