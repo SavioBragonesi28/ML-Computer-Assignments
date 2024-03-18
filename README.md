@@ -21,3 +21,16 @@ data analysis (EDA), cleaned the data, encoded categorical variables, and constr
 a Decision Tree model based on our dataset. Subsequently, we experimented with different 
 hyperparameters to optimize our tree's performance. 
 Finally, we evaluated the model's effectiveness by making predictions on unseen data.
+
+# CA04: Ensemble Methods
+In this assingment we utilized the same Census data from Computer Assignment 03. We replicated
+all the steps of EDA and encoding that we had previously used to build our Decision Tree Classifier.
+Then we created 4 classifiers using: Random Forest, Adaboost, Gradient Boost and XGboost. Our goal was to compare
+their performance by changing the number of estimators and using AUC and accuracy as our metrics.
+
+# CA05: kNN based Movie Recommender Engine
+At scale, this would look like recommending products on Amazon, articles on Medium, movies on
+Netflix, or videos on YouTube. Although, we can be certain they all use more efficient means of making
+recommendations due to the enormous volume of data they process. However, we could replicate one of
+these recommender systems on a smaller scale using what we have learned here in this article. Let us
+build the core of a movies recommender system using kNN algorithm.
