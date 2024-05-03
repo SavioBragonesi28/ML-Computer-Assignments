@@ -1,1 +1,59 @@
+# Predicting Per Capita Electricity Consumption using Machine Learning
+
+## Project Overview
+
+This project utilizes machine learning techniques to predict a country's per capita electricity consumption and explore the underlying factors influencing these consumption patterns. Our goal is to provide actionable insights that can guide policy-making and strategic economic planning toward sustainability and efficiency.
+
+## Key Objectives
+
+- **Predictive Analysis:** Develop a predictive model for per capita electricity consumption using advanced machine learning techniques.
+- **Factor Analysis:** Identify and analyze key socio-economic and environmental factors impacting electricity consumption using SHAP value analysis.
+- **Policy Recommendations:** Offer insights derived from the model to support the development of energy policies that promote sustainable practices and equitable energy access.
+
+## Methodology
+
+### Data Collection
+
+- **Sources:** Utilized multiple free datasets from The World Data Bank and Our World in Data, focusing on a wide range of indicators from the years 2000 to 2021.
+- **Preprocessing:** Data cleaning involved handling missing values, correcting data entry errors, and merging datasets to create a comprehensive set for analysis.
+
+### Data Exploration
+
+- **Assessment of Completeness:** Initial assessment to determine the extent of missing data, which guided the imputation strategies.
+- **Outlier Analysis:** Identification and handling of outliers to ensure they do not skew the model outcomes.
+- **Distribution Analysis:** Evaluated the distribution of variables to select appropriate transformations and modeling techniques.
+
+### Model Development
+
+- **Model Selection:** Experimented with multiple regressors including Gradient Boosting, Random Forest, and XGBoosting, ultimately selecting XGBoost for its performance and robustness.
+- **Parameter Tuning:** Employed Grid Search Cross-Validation to fine-tune model parameters for optimal performance.
+- **Feature Selection:** Recursive feature elimination used to select the most impactful features.
+
+### Model Validation
+
+- **Cross-Validation:** Employed k-fold cross-validation to validate model robustness and ensure it generalizes well on unseen data.
+- **Performance Metrics:** Model's predictive accuracy assessed using R Squared and Mean Absolute Error metrics.
+
+## Results
+
+- **Performance:** The refined model achieved an R^2 score of 0.963 and a Mean Absolute Error of 286.14 on the training dataset. Testing on unseen 2021 data confirmed the model's robustness with similar performance metrics.
+- **Feature Insights:** SHAP analysis revealed that GDP per capita and CO2 emissions are significant predictors of electricity consumption, alongside other socio-economic factors.
+
+## Applications
+
+- **Policy Making:** The insights from this model can aid in drafting energy policies that consider economic and environmental impacts, promoting sustainable energy usage.
+- **Strategic Energy Planning:** Provides a foundation for targeted investments in energy infrastructure, focusing on renewable energy to decrease reliance on fossil fuels.
+
+## Limitations and Future Research
+
+- **Data Limitations:** The model's current dataset spans only until 2021; future expansions could include more recent data or broader indicators.
+- **Model Enhancements:** Future work could explore additional machine learning algorithms or incorporate more granular data to enhance predictive accuracy and insights.
+
+## How to Run the Project
+
+Ensure you have Python and the necessary libraries installed.
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-repository/project-name.git
 
